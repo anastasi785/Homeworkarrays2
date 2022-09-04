@@ -27,10 +27,10 @@ public class Main {
 
         char[] reverseFullName = {  'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for(int i = reverseFullName.length-1;i>=0;i--){
-            System.out.println(reverseFullName[i]);
+            System.out.print(reverseFullName[i]);
         }
         for (int i = 0; i < reverseFullName.length/2; i++) {
-            symbol = reverseFullName[i];
+            char symbol = reverseFullName[i];
             reverseFullName[i] = reverseFullName[reverseFullName.length - 1 - i];
             reverseFullName[reverseFullName.length - 1 - i] = symbol;
         }
